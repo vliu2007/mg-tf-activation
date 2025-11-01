@@ -1,0 +1,19 @@
+name: mg-tf-activation
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - scanpy
+  - anndata
+  - scvi-tools
+  - scvelo
+  - cellrank
+  - pyscenic
+  - gseapy
+  - decoupler
+  - pip
+  - jupyterlab
+  - pip:
+      - pyjaspar
+
